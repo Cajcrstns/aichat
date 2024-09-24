@@ -35,7 +35,26 @@ export function ChatPanel({
   const [shareDialogOpen, setShareDialogOpen] = React.useState(false)
 
   const exampleMessages = [
-  
+    {
+      heading: 'Hello',
+      subheading: 'how are you?',
+      message: `Hello, how are you?`
+    },
+    {
+      heading: 'Explain to me',
+      subheading: 'what is your favorite niche?',
+      message: 'Explain to me, what is your favorite niche?'
+    },
+    {
+      heading: 'Is it safe',
+      subheading: 'to invest your money into real estate?',
+      message: `Is it safe to invest your money into real estate?`
+    },
+    {
+      heading: 'What are some',
+      subheading: `recent events about bitcoin?`,
+      message: `What are some recent events about bitcoin?`
+    }
   ]
 
   return (
